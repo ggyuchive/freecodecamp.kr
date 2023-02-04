@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">It's a survey form made by Byeonggyu-Park</p>
+        <form id="survey-form">
+            <label for="name" id="name-label">Enter your name: <input type="text" id="name" required placeholder="Byeonggyu-Park"></label>
+            <label for="email" id="email-label">Enter your email: </label><input type="email" id="email" required placeholder="zarami12140@naver.com"></label>
+            <label for="number" id="number-label">Enter your age: <input type="number" id="number" min="20" max="34" placeholder="22"></label>
+            
+            <select id="dropdown">
+                <option value="0y">Under 1 year</option>
+                <option value="1y">1 year</option>
+                <option value="2y">2 years</option>
+                <option value="3y">Over 2 years</option>
+            </select>
+
+            <input type="radio" id="gender" name="gender" value="male">male
+            <input type="radio" id="gender" name="gender" value="female">female
+
+            <input type="checkbox" value="DS"> Data Structure
+            <input type="checkbox" value="PS"> Problem Solving
+            <input type="checkbox" value="AL"> Algorithm
+
+            <label for="comment">
+                Additional Comment:
+                <textarea id="comment" cols="30" rows="3"></textarea>
+            </label>
+            <button id="submit">Submit</button>
+        </form>
+    </body>
+</html>
