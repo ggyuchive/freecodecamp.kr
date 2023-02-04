@@ -26,9 +26,9 @@ a:visited {
 
 ## Learn CSS Colors by Building a Set of Colored Markers
 ### hsl color model
-hue: 0~360 (0: red, 120: green, 240: blue)  
-saturation: 0~100 (0: gray, 100: pure)  
-lightness: 0~100 (0: black, 50: natural ,100: white)  
+hue: 0-360 (0: red, 120: green, 240: blue)  
+saturation: 0-100 (0: gray, 100: pure)  
+lightness: 0-100 (0: black, 50: natural ,100: white)  
 
 ### opacity (불투명도)
 0.0: 투명  
